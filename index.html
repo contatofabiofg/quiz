@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Quiz</title>
+</head>
+
+<body>
+
+  <div id="one">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <div class="quiz-question">
+        <p>I - Qual destas cores não está na bandeira do Brasil?</p>
+      </div>
+      <div class="quiz-options">
+        <button class="option1 wrong" onclick="wrong()">
+          <p>Verde</p>
+        </button>
+        <button class="option2 correct" onclick="correct()">
+          <p>Roxo</p>
+        </button>
+        <button class="option3 wrong" onclick="wrong()">
+          <p>Amarelo</p>
+        </button>
+      </div>
+
+      <p class="answer">
+      </p>
+
+    </div>
+  </div>
+
+  <div id="two">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <div class="quiz-question">
+        <p>II - Qual herói é conhecido por não ter poderes e ser rico?</p>
+      </div>
+      <div class="quiz-options">
+        <button class="option1 correct" onclick="correct()">
+          <p>Batman</p>
+        </button>
+        <button class="option2 wrong" onclick="wrong()">
+          <p>Superman</p>
+        </button>
+        <button class="option3 wrong" onclick="wrong()">
+          <p>Homem-aranha</p>
+        </button>
+      </div>
+
+      <p class="answer">
+      </p>
+
+
+    </div>
+  </div>
+
+  <div id="three">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <div class="quiz-question">
+        <p>III - O que é "um século"?</p>
+      </div>
+      <div class="quiz-options">
+        <button class="option1 wrong" onclick="wrong()">
+          <p>Um tipo de vegetal</p>
+        </button>
+        <button class="option2 wrong" onclick="wrong()">
+          <p>Um estudo musical</p>
+        </button>
+        <button class="option3 correct" onclick="correct()">
+          <p>100 anos</p>
+        </button>
+      </div>
+
+      <p class="answer">
+      </p>
+
+
+    </div>
+  </div>
+
+  <div id="four">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <div class="quiz-question">
+        <p>IV - Qual destes é um integrante do grupo de rap "Racionais Mc's"?</p>
+      </div>
+      <div class="quiz-options">
+        <button class="option1 correct" onclick="correct()">
+          <p>Mano Brown</p>
+        </button>
+        <button class="option2 wrong" onclick="wrong()">
+          <p>Emicida</p>
+        </button>
+        <button class="option3 wrong" onclick="wrong()">
+          <p>Criolo</p>
+        </button>
+      </div>
+
+      <p class="answer">
+      </p>
+
+
+    </div>
+  </div>
+
+  <div id="five">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <div class="quiz-question">
+        <p>V - Quanto é 2+2?</p>
+      </div>
+      <div class="quiz-options">
+        <button class="option1 wrong" onclick="wrong()">
+          <p>5</p>
+        </button>
+        <button class="option2 correct" onclick="correct()">
+          <p>4</p>
+        </button>
+        <button class="option3 wrong" onclick="wrong()">
+          <p>22</p>
+        </button>
+      </div>
+
+      <p class="answer">
+      </p>
+
+
+    </div>
+  </div>
+
+  <div class="result">
+    <div class="quiz-area">
+      <h1>SuperQuiz!</h1>
+      <p class="textresult"></p>
+      <div class="restart" onclick="restart()">
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
